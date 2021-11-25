@@ -1,0 +1,24 @@
+{
+  "name": "aggregatinator",
+  "version": "1.0.0",
+  "description": "Hopefully this turns into something cool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HSamiul/aggregatinator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HSamiul/aggregatinator/issues"
+  },
+  "homepage": "https://github.com/HSamiul/aggregatinator#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}

@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Fira Mono', -apple-system, BlinkMacSystemFont, monospace, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -18,6 +18,6 @@ code {
   text-align: center;
   color: #EEEEEE;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 30px;
   margin: 20px;
 }

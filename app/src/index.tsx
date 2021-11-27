@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom';
-import './index.css';
-import { getKanyeQuote } from '../src/api/kanye'
 import { useEffect, useState } from 'react';
-import axios from 'axios';
+import './index.css';
+
+import { getKanyeQuote } from '../src/api/kanye'
 
 function Kanye(): JSX.Element {
   const [quote, setQuote] = useState("")
@@ -17,10 +17,26 @@ function Kanye(): JSX.Element {
 
   return (
     <div className="kanye">
-      <span>{quote}</span>
+      <span><span style={{color: "#FFD369"}}> Kanye says: </span>{quote}</span>
     </div>
   )
 }
+
+type SnippetProps = {
+  description: string,
+  status: string,
+
+}
+
+function Snippet(props: SnippetProps): JSX.Element {
+  return (
+    <div className="snippet">
+      {props.description}<br/>
+      {props.status}
+    </div>
+  )
+}
+
 
 ReactDOM.render(
   <Kanye></Kanye>,

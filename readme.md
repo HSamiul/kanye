@@ -1,5 +1,6 @@
-Hopefully this turns into something cool
+This is a Kanye West quote generator built on yarn.
 
+Don't read this part, it's for me.
 ### How to start a typescript node project
 1. Create an empty directory and navigate to it in terminal
 2. Run `npm init -y`
